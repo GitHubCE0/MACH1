@@ -331,3 +331,27 @@ nav {
   object-position: 0 -5rem;
   filter: saturate(0);
 }
+
+/* ! C-O-N-T-A-C-T ! */
+
+.contact {
+  background-color: #17181a;
+}
+
+.contact-plain {
+  font-family: Poppins;
+  font-size: 1.4rem;
+  line-height: 160%; /* 22.4px */
+  padding-left: 2rem;
+  color: #a1a7b2;
+  margin-top: 1rem;
+}
+
+.contact-title {
+  font-family: Poppins;
+  font-size: 1.6rem;
+  line-height: 160%; /* 22.4px */
+  border-left: 2px solid #295fcc;
+  padding-left: 2rem;
+  color: #cfd6e5;
+}
