@@ -332,6 +332,21 @@ nav {
   filter: saturate(0);
 }
 
+/* ! G-A-L-L-E-R-Y ! */
+
+.gallery-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.gallery-img {
+  max-width: 34rem;
+  border: 2px solid #17181a;
+  border-radius: 4px;
+}
+
 /* ! C-O-N-T-A-C-T ! */
 
 .contact {
