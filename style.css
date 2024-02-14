@@ -380,12 +380,30 @@ header {
 }
 
 @media screen and (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
   /* ! global */
   .plain-text {
     font-size: 1.4rem;
   }
 
+  /* ! nav */
+  nav {
+    padding: 1.6rem 1rem;
+  }
+  .logo {
+    font-size: 2rem;
+  }
+  .nav-item {
+    gap: 1rem;
+  }
+
   /* ! hero */
+  .hero {
+    padding: 1rem;
+  }
   .hero-text {
     font-size: 2.8rem;
   }
@@ -399,6 +417,14 @@ header {
     object-fit: cover;
   }
   .section-container {
-    padding: 2rem;
+    padding: 0.4rem;
+  }
+  /* ! service card */
+  .service-card {
+    padding: 1rem 0.4rem;
+  }
+  /* ! team card */
+  .team-card {
+    padding: 1rem 0.4rem;
   }
 }
